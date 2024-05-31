@@ -9,10 +9,6 @@ This example is deploys a site built by [Vite](https://vitejs.dev/) and served b
 - NGINX
 - Build static files with Vite
 
-## How to use
-
-- Open the `site/index.html` in the browser
-
 ## Notes
 
 By default, the site is built by Vite to the `dist` directory. This is then copied into the NGINX container. If you want to change the build directory, you can update the `vite.config.js` file.
