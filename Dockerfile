@@ -7,4 +7,4 @@ RUN npm run build
 
 # Step 2: Set up the production environment
 FROM nginx:alpine
-COPY --from=builder /dist /usr/share/nginx/html
+COPY --from=builder /app/dist /usr/share/nginx/html
